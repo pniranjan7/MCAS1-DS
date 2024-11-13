@@ -16,7 +16,7 @@ printf("%d ",a[i]);
 }
 printf("\nEnter the position to be deleted:");
 scanf("%d",&pos);
-for(i=pos;i<n;i++)
+for(i=pos-1;i<n;i++)
 {
 a[i]=a[i+1];
 }
